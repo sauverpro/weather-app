@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    /* background: grey; */
+    padding: 2px;
+    /* width: 50%; */
+    text-align: center;
+}
+ 
+form input {
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+    /* border: none; */
+}
+
+form button {
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 17px;
+    background: skyblue;
+    color: aliceblue;
+    margin: 5px;
+}
+
+.hidden {
+    display: none;
+}
